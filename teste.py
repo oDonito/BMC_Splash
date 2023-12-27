@@ -19,13 +19,14 @@ imagens_prefixo5 = carregar_imagens("imagem5_")
 # Função para encontrar e sobrepor as imagens baseadas nos valores de entrada
 def sobrepor_imagens_por_prefixo(valores, imagens):
     imagens_selecionadas = []
+    indice = 1
     for valor in valores:
-        if valor > 0 and valor <= len(imagens):
-            imagens_selecionadas.append(imagens[valor - 1])  # Ajuste da indexação
-        else:
-            imagens_selecionadas.append(None)  # ou outro valor que indique ausência de imagem
-    return imagens_selecionadas
+        if valor == 1:
+            if indice <= len(imagens):
+                imagens_selecionadas.append(imagens[indice - 1])
+        indice += 1
 
+    return imagens_selecionadas
 
 # Função para solicitar valores para cada conjunto de imagens
 def solicitar_valores_e_combinar(imagens, prefixo):
