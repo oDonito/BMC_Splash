@@ -29,7 +29,7 @@ def sobrepor_imagens_por_prefixo(valores, imagens):
 
 # Função para solicitar valores para cada conjunto de imagens
 def solicitar_valores_e_combinar(imagens, prefixo):
-    valor_input = input(f"Insira os valores (0 e 1 separados por espaços) para as imagens {prefixo}: ")
+    valor_input = input(f"Insira um valor de 0 a 10 (valores ímpares representam meia pontuação) para as imagens {prefixo}: ")
     valores = list(map(int, valor_input.split()))
 
     return sobrepor_imagens_por_prefixo(valores, imagens)
