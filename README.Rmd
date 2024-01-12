@@ -16,7 +16,7 @@ GitHub Desktop será lançado após a instalação ser concluída.
 
 # VSCODE
 
-Dentro do VSCode, voce navegará até o terminal e buscará pelo diretório (pasta) que vai colocar o projeto: 
+Dentro do VSCode, você navegará até o terminal e buscará pelo diretório (pasta) que vai colocar o projeto: 
 
 1 - Navegue até o diretório onde deseja clonar o repositório:
 Use o comando cd para navegar até o diretório desejado. Por exemplo:
@@ -33,4 +33,10 @@ git clone https://github.com/odonito/BMC_Splash.git
 Vá para o diretório do projeto recém-clonado usando o comando cd:
 ```{r}
 cd BMC_Splash
+```
+# Bibliotecas
+
+Você precisará acessar o terminal do vscode para baixar a biblioteca pill através do seguinte código
+```{r}
+pip install PIL
 ```
