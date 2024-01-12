@@ -1,3 +1,10 @@
+---
+title: "BMC Splash"
+author: "Matheus Donito"
+date: "2024-01-12"
+output: html_document
+---
+
 # BMC_Splash
 
 O intuito desse projeto é automatizar o processo de criação dos gráficos do BMC Splash por meio do Pyhton.
@@ -21,22 +28,22 @@ Dentro do VSCode, você navegará até o terminal e buscará pelo diretório (pa
 1 - Navegue até o diretório onde deseja clonar o repositório:
 Use o comando cd para navegar até o diretório desejado. Por exemplo:
 ```{r}
-cd caminho/do/seu/diretorio
+# cd caminho/do/seu/diretorio
 ```
 
 2 - Clone o repositório: Use o comando git clone seguido do URL do repositório. O URL pode ser obtido no site do host do Git. No caso:
 ```{r}
-git clone https://github.com/odonito/BMC_Splash.git
+# git clone https://github.com/odonito/BMC_Splash.git
 ```
 
 3 - Entre no diretório do projeto:
 Vá para o diretório do projeto recém-clonado usando o comando cd:
 ```{r}
-cd BMC_Splash
+# cd BMC_Splash
 ```
 # Bibliotecas
 
 Você precisará acessar o terminal do vscode para baixar a biblioteca pill através do seguinte código
 ```{r}
-pip install PIL
+# pip install PIL
 ```
