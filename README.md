@@ -1,10 +1,3 @@
----
-title: "BMC Splash"
-author: "Matheus Donito"
-date: "2024-01-12"
-output: html_document
----
-
 # BMC_Splash
 
 O intuito desse projeto é automatizar o processo de criação dos gráficos do BMC Splash por meio do Pyhton.
