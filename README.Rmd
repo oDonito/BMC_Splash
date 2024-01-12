@@ -17,3 +17,20 @@ GitHub Desktop será lançado após a instalação ser concluída.
 # VSCODE
 
 Dentro do VSCode, voce navegará até o terminal e buscará e digitará 
+
+1 - Navegue até o diretório onde deseja clonar o repositório:
+Use o comando cd para navegar até o diretório desejado. Por exemplo:
+```{r}
+cd caminho/do/seu/diretorio
+```
+
+2 - Clone o repositório: Use o comando git clone seguido do URL do repositório. O URL pode ser obtido no site do host do Git. No caso:
+```{r}
+git clone https://github.com/odonito/BMC_Splash.git
+```
+
+3 - Entre no diretório do projeto:
+Vá para o diretório do projeto recém-clonado usando o comando cd:
+```{r}
+cd BMC_Splash
+```
