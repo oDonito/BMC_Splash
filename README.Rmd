@@ -16,7 +16,7 @@ GitHub Desktop será lançado após a instalação ser concluída.
 
 # VSCODE
 
-Dentro do VSCode, voce navegará até o terminal e buscará e digitará 
+Dentro do VSCode, voce navegará até o terminal e buscará pelo diretório (pasta) que vai colocar o projeto: 
 
 1 - Navegue até o diretório onde deseja clonar o repositório:
 Use o comando cd para navegar até o diretório desejado. Por exemplo:
