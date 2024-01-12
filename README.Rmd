@@ -1,0 +1,19 @@
+# BMC_Splash
+
+O intuito desse projeto é automatizar o processo de criação dos gráficos do BMC Splash por meio do Pyhton.
+
+# Tutorial de como baixar o Github
+
+Baixando e instalando o [GitHub Desktop](https://desktop.github.com/)
+Você pode instalar o GitHub Desktop nas versões Windows 10 de 64 bits ou versão posterior.
+
+Aviso: você precisa ter um sistema operacional de 64 bits para executar o GitHub Desktop.
+
+Acesse a página de download do GitHub Desktop.
+Clique em Baixar para Windows.
+Na pasta Downloads do computador, clique duas vezes no arquivo de instalação do GitHub Desktop .
+GitHub Desktop será lançado após a instalação ser concluída.
+
+# VSCODE
+
+Dentro do VSCode, voce navegará até o terminal e buscará e digitará 
