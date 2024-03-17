@@ -1,10 +1,9 @@
 from PIL import Image
-
 # Função para carregar as imagens de acordo com o padrão fornecido
 def carregar_imagens(prefixo):
     imagens = []
     for i in range(1, 11):
-        caminho = f"C:/Users/mathe/OneDrive/Programação/Python/Projeto/BMC.py/{prefixo}{i}.png"
+        caminho = f"{prefixo}{i}.png"
         imagem = Image.open(caminho)
         imagens.append(imagem)
     return imagens
